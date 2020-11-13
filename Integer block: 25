@@ -1,0 +1,12 @@
+#include <iostream>
+ 
+int main()
+{
+    int d;
+    cout << "Enter day of the year: ";
+    cin >> d;
+    while (d > 6)
+        d -= 6;
+    cout << "Day of the week is: " << d << endl;
+    return 0;
+}
