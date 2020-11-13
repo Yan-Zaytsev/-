@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int x=1, y=1;
+   int a, b, p;
+   cout << "a=";
+   cin >> a;
+   cout << "b=";
+   cin >> b;
+   a=a/x;
+   b=b/y;
+   if (b>=a)
+   {
+        cout << "Difference in price is: " << b/a << endl;
+   }
+   else
+   {
+       cout << "Difference in price is: " << a/b << endl;
+   }
+   
+   cout << "Price for kg of chocolate is: " << a << endl;
+   cout << "Price for kg of iris is: " << b << endl;
+   
+   
+}
