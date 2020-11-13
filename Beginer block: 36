@@ -1,0 +1,20 @@
+36
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int v, b, s, t; // v - pervaya lodka, b - vtoraya, r - rasstoyanie
+   cout << "V1= ";
+   cin >> v;
+   cout << "V2= ";
+   cin >> b;
+   cout << "S= ";
+   cin >> s;
+   cout << "T= ";
+   cin >> t;
+   cout << "Resstoyanie= " << s+(t*(v+b));
+   return 0; 
+}
